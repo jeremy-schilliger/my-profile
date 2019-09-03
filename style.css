@@ -1,0 +1,102 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+
+    width: 700px;
+    margin-left: auto;
+  	margin-right: auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin-left: auto;
+  	margin-right: auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin-left: auto;
+  	margin-right: auto;
+  }
+}
+
+h1, h2, h3 {
+  font-family: "Arial", sans-serif; /* if all headers use Helvetica */
+}
+
+body {
+	/*background-image: url(bg.png)*/
+	background-color: #e9f6f7;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+
+#profile-pic {
+	width: 140px;
+	height: 140px; 
+	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+ 	border-radius: 50%;
+ }
+
+.card-white {
+	width: 500px;     /* Fix the width first*/
+	margin: 10px auto; /* Let CSS compute the same left & right margins automatically*/
+	background: white;                         /* White background */
+	padding: 30px;                             /* Internal space */
+	border-radius: 4px;                        /* Small radius */
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+.card-white:hover {
+	width: 500px;     /* Fix the width first*/
+	margin: 10px auto; /* Let CSS compute the same left & right margins automatically*/
+	background-color: #f7f7f7;                         /* White background */
+	padding: 30px;                             /* Internal space */
+	border-radius: 4px;                        /* Small radius */
+	box-shadow: 0 10px 60px rgba(0,0,0,.1);    /* Light shadow */
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    margin-top: 20px;
+	margin-left: auto;
+  	margin-right: auto; 
+    color: #FFF;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10%;
+    text-align: center;
+    vertical-align: middle;
+    background-image: -webkit-linear-gradient(45deg, #709dff 0%, #91fdb7 100%);    
+    background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+    transition: .4s;
+}
+
+.btn:hover{
+  -webkit-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
